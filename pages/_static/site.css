@@ -128,6 +128,7 @@ img {
 
 a {
 	color: #33a;
+	text-decoration: none;
 }
 
 a:hover {
