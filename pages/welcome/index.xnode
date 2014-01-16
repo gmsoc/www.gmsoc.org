@@ -1,8 +1,9 @@
 <page>
 	<?r @title = "Game Mechanics Society" ?>
 	
-	<p>The Game Mechanics Society is a group of independent game developers in New Zealand. We come together to encourage young game developers and provide a support network of skilled developers who can assist and provide guidance.</p>
-
+	<p>The Game Mechanics Society is a group of independent game developers in New Zealand. The society exists to support and nurture indie game development within New Zealand, providing both expertise and support for local game developers.</p>
+	
+	<p>Follow us on <a href="https://facebook.com/GameMechanicsSociety">Facebook</a> or <a href="https://plus.google.com/communities/114698704831801249375">Google+</a> to keep up to date on the latest events and news.</p>
 	
 	<h2>Upcoming Events</h2>
 	
@@ -11,4 +12,8 @@
 			<li>#{link.to_href} - #{link[:summary].to_html}</li>
 		<?r end ?>
 	</ul>
+	
+	<h2>Latest Articles</h2>
+	
+	<script src="http://www.reddit.com/r/GMS/hot/.embed?limit=10&t=all" type="text/javascript"></script>
 </page>
