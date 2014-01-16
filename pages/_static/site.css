@@ -135,7 +135,7 @@ a:hover {
 	color: #55c;
 }
 
-p, dl, h3 {
+p, ul, dl, h3 {
 	margin: 1em;
 }
 
@@ -144,7 +144,27 @@ h3 {
 }
 
 ul {
+	list-style: none;
 	margin-bottom: 1em;
+}
+
+ul.listing {
+	padding: 0;
+	list-style: none;
+}
+
+li:before {
+	/* For a round bullet */
+	/*content:'\2022';*/
+	/* For a square bullet */
+	content:'\25A0';
+	display: block;
+	position: relative;
+	max-width: 0px;
+	max-height: 0px;
+	left: -15px;
+	top: -0px;
+	color: gray;
 }
 
 h3, h4, h5, h6 {

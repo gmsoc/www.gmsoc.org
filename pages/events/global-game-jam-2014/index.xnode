@@ -1,5 +1,21 @@
 <page>
 	<heading>Global Game Jam 2014</heading>
 	
-	<p>We will be running a local Global Game Jam session. To register for this session, please email <a href="mailto:samuel@oriontransfer.org">samuel@oriontransfer.org</a>. For more details about our jam site, please visit the <a href="http://globalgamejam.org/2014/jam-sites/hitlabnz-university-canterbury">official page</a>.</p>
+	<h2>Location</h2>
+	
+	<p>We will be running a local Global Game Jam session at the HIT Lab NZ, University of Canterbury. It is located in the old maths building.</p>
+	
+	<h2>Registration</h2>
+	
+	<p>To register for this session, please email <a href="mailto:samuel@oriontransfer.org">samuel@oriontransfer.org</a>. For more details about our jam site, please visit the <a href="http://globalgamejam.org/2014/jam-sites/hitlabnz-university-canterbury">official page</a>.</p>
+	
+	<h2>Resources</h2>
+	
+	<p>We will be recommending participants to use HTML5/JavaScript/Canvas/WebGL as it is easy to use and share.</p>
+	
+	<ul>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">Mozilla HTML5 documentation</a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial">HTML5 Canvas Tutorial</a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/WebGL">HTML5 WebGL Tutorial</a></li>
+	</ul>
 </page>

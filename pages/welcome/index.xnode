@@ -5,9 +5,10 @@
 
 	
 	<h2>Upcoming Events</h2>
-	<ul>
+	
+	<ul class="listing">
 		<?r links("../events").each do |link| ?>
-			<ul>#{link.to_href}</ul>
+			<li>#{link.to_href} - #{link[:summary].to_html}</li>
 		<?r end ?>
 	</ul>
 </page>
