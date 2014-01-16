@@ -1,26 +1,129 @@
 /* Copyright (c) 2010 Orion Transfer Ltd. All Rights Reserved. */
 
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+
 body, p, ol, ul, blockquote {
-	font-family: "Skia", verdana, arial, helvetica, sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	
-	color: #339;
+	color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: menlo, monospace;
-	color: #303;
-	
 	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
+h1 {
+	padding: 4pt;
+	
+	box-shadow:
+		-1px 1px 0px 0px rgb(1, 123, 200),
+		-2px 2px 0px 0px rgb(1, 123, 200),
+		-3px 3px 0px 0px rgb(1, 123, 200),
+		-4px 4px 0px 0px rgb(1, 123, 200),
+		-5px 5px 0px 0px rgb(1, 123, 200),
+		-6px 6px 0px 0px rgb(1, 123, 200),
+		-7px 7px 0px 0px rgb(1, 123, 200),
+		-8px 8px 0px 0px rgb(1, 123, 200);
+		
+	background-color: rgb(1, 142, 211);
+	
+	color: white;
+}
+
 body {
-	background: url(/_static/background.png) #fff center no-repeat fixed;
-	padding: 50px;
+	padding: 0;
+	margin: 0;
 }
 
 img {
 	border: none;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	
+	padding: 4pt;
+	
+	font-size: 20pt;
+	height: 44px;
+	
+	box-sizing: border-box;
+}
+
+.rainbow {
+	position: absolute;
+	
+	top: 0;
+	bottom: 0;
+	right: 20px;
+
+	width: 240px;
+}
+
+.rainbow div {
+	position: absolute;
+	display: inline-block;
+	
+	width: 36px;
+	
+	top: 0;
+	bottom: 0;
+}
+
+.rainbow div.shade {
+	position: absolute;
+	
+	top: 44px;
+	bottom: 0;
+	left: 0;
+	width:240px;
+	
+	background-color: rgba(255, 255, 255, 0.94);
+}
+
+.rainbow .purple {
+	left: 0px;
+	background: linear-gradient(to bottom, rgb(56, 50, 130) 0%, rgb(72, 64, 149) 100%);
+}
+
+.rainbow .blue {
+	left: 40px;
+	background: linear-gradient(to bottom, rgb(1, 123, 200) 0%, rgb(1, 142, 211) 100%);
+}
+
+.rainbow .green {
+	left: 80px;
+	background: linear-gradient(to bottom, rgb(115, 181, 21) 0%, rgb(134, 195, 29) 100%);
+}
+
+.rainbow .yellow {
+	left: 120px;
+	background: linear-gradient(to bottom, rgb(255, 181, 0) 0%, rgb(255, 195, 0) 100%);
+}
+
+.rainbow .orange {
+	left: 160px;
+	background: linear-gradient(to bottom, rgb(238, 108, 1) 0%, rgb(242, 127, 2) 100%);
+}
+
+.rainbow .red {
+	left: 200px;
+	background: linear-gradient(to bottom, rgb(208, 1, 16) 0%, rgb(218, 1, 22) 100%);
+}
+
+#page {
+	position: relative;
+	
+	padding: 20pt;
+	
+	margin-right: 260px;
+}
+
+#logo {
+	width: 240px;
+	height: 400px;
 }
 
 a {
