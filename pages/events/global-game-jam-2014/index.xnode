@@ -18,4 +18,8 @@
 		<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial">HTML5 Canvas Tutorial</a></li>
 		<li><a href="https://developer.mozilla.org/en-US/docs/Web/WebGL">HTML5 WebGL Tutorial</a></li>
 	</ul>
+	
+	<div class="gallery">
+		<img src="/_static/art/tentako.jpg" width="583px" height="428px" />
+	</div>
 </page>
