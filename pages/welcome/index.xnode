@@ -9,7 +9,7 @@
 	
 	<ul class="listing">
 		<?r links("../events").each do |link| ?>
-			<li>#{link.to_href} - #{link[:summary].to_html}</li>
+			<li>#{link.to_href} - #{Strings::to_html link[:summary]}</li>
 		<?r end ?>
 	</ul>
 	
