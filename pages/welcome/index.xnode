@@ -15,5 +15,5 @@
 	
 	<h2>Latest Articles</h2>
 	
-	<script src="http://www.reddit.com/r/GMS/hot/.embed?limit=10&t=all" type="text/javascript"></script>
+	<script src="//www.reddit.com/r/GMS/hot/.embed?limit=10&t=all" type="text/javascript"></script>
 </page>
