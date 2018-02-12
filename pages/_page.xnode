@@ -4,7 +4,7 @@
 		<?r response.content_type! "text/html; charset=utf-8" ?>
 		<?r response.cache! ?>
 		
-		<?r if title = (attributes["title"] || @title) ?>
+		<?r if title = self[:title] ?>
 			<title>#{title.gsub(/<.*?>/, "")}</title>
 		<?r else ?>
 			<title>Game Mechanics Society</title>
@@ -33,7 +33,7 @@
 		</div>
 		
 		<div id="page" style="z-index: 5">
-			<content />
+			<utopia:content />
 		</div>
 	</body>
 </html>

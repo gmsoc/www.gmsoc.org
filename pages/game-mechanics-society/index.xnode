@@ -1,4 +1,4 @@
-<page>
+<content:page>
 	<?r @title = "Game Mechanics Society" ?>
 	<div class="logo">
 		<img src="logo.png" />
@@ -27,4 +27,4 @@
 	<h2>Membership</h2>
 	
 	<p>To become an official member of the Game Mechanics Society you must produce and demonstrate a complete game with novel mechanics. For more information please contact <a href="mailto:samuel.williams@oriontransfer.co.nz">Samuel Williams</a>.</p>
-</page>
+</content:page>
