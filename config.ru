@@ -11,14 +11,9 @@ if RACK_ENV == :production
 else
 	# We want to propate exceptions up when running tests:
 	use Rack::ShowExceptions unless RACK_ENV == :test
-	
-	# Serve the public directory in a similar way to the web server:
-	use Utopia::Static, root: 'public'
 end
 
-use Rack::Sendfile
-
-use Utopia::ContentLength
+use Utopia::Static, root: 'public'
 
 use Utopia::Redirection::Rewrite,
 	'/' => '/welcome/index'
