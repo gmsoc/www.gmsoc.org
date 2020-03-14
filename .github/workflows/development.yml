@@ -10,14 +10,8 @@ jobs:
           - ubuntu
         
         ruby:
-          - 2.4
-          - 2.5
           - 2.6
-        
-        include:
-          - os: 'ubuntu'
-            ruby: '2.6'
-            env: COVERAGE=PartialSummary,Coveralls
+          - 2.7
     
     runs-on: ${{matrix.os}}-latest
     
