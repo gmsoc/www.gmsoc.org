@@ -158,7 +158,7 @@ GEM
       rake-compiler
     trenni-sanitize (0.6.1)
       trenni (~> 3.5)
-    utopia (2.13.4)
+    utopia (2.18.5)
       concurrent-ruby (~> 1.0)
       console (~> 1.0)
       http-accept (~> 2.1)
@@ -187,7 +187,7 @@ DEPENDENCIES
   rack-test
   rake
   rspec
-  utopia (~> 2.13.3)
+  utopia (~> 2.13)
   variant
 
 BUNDLED WITH
